@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+
+ul li a:hover{
+    background-color: white;
+    color:black
+}
+
+ul li.active a{
+    background-color: white;
+    color:black
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sign{
+    color: white;
+    border: 1px solid transparent;
+    width: 320px;
+    background: #000;
+    height: 420px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20x;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sign label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.sign input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: #000 1px solid;
+    background: transparent;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.sign input[type="submit"]{
+    border: none;
+    outline:none;
+    height: 40px;
+    background: orangered;
+    color: white;
+    font-size: 18px;
+}
+
+.sign input[type="submit"]:hover{
+    color:black;
+}
+
+.sign a{
+    color: darkgrey;
+}
+
+.sign a:hover{
+    color: orangered;
+}

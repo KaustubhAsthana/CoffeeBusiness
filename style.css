@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+
+ul li a:hover{
+    background-color: white;
+    color:black
+}
+
+ul li.active a{
+    background-color: white;
+    color:black
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    top: 50%;
+    left: 35%;
+    transform: translate(-50px, -50px);
+    position: absolute;
+}
+
+.title h1{
+    color:white;
+    font-size: 70px;
+}
